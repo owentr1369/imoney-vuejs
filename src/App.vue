@@ -1,12 +1,17 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <ul>
+  <!-- <ul>
     <li>
       <router-link class="t2icon t2ico-wallet" to="/">Home</router-link>
     </li>
     <li><router-link to="/about">About</router-link></li>
   </ul>
-  <router-view />
+  <router-view /> -->
+  <!-- explicit style -->
+  <font-awesome-icon icon="fa-solid fa-wallet" />
+
+  <!-- implicit style (fas is assumed) -->
+  <font-awesome-icon icon="wallet" />
 </template>
 
 <script>
